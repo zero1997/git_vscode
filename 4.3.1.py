@@ -12,7 +12,9 @@ X_scaled = preprocessing.scale(X_train);
 
 
 print X_scaled;
+#每一列的均值，axis=0代表列
 X_scaled.mean(axis = 0);
+#每一列的方差，axis=1
 X_scaled.std(axis = 0);
 
 
